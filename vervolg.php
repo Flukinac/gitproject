@@ -25,7 +25,7 @@ class Mens {
 }
 
 
-
+//////ooeepppsss
 
 $piet = new Mens('Piet', 'man', '.....', 'blank', '45');
 $truus = new Mens('Truus', 'vrouw', '.....', 'blank', '16');
