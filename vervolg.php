@@ -19,7 +19,8 @@ class Mens {
     
     
     function verhaaltje($naam){
-             echo  $this->naam." is een ".$this->geslacht." en mag ".$naam." met zijn ".$this->geslachtsdeel." ...........";
+		$geslacht == "vrouw" ? $het = "haar" : $het = "zijn";		
+        echo  $this->naam." is een ".$this->geslacht." en mag ".$naam." met ".$het.".$this->geslachtsdeel." ...........";
     }
 }
 
